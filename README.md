@@ -21,7 +21,7 @@ The Operator SDK is a toolkit that is continuing evolving over the time (e.g., i
 In particular, as reported in the main Github page of the operator SDK, the libraries and tools are labeled with "Project Status: pre-alpha", thus and "are expected breaking changes to the API in the upcoming releases".
 The project started almost 7 months ago and we started monitoring it intensively from October 2018.
      
-#Supported Operator SDK Workflows
+# 2-c) Supported Operator SDK Workflows
 
 The SDK provides workflows to develop operators in Go, Ansible, or Helm.
 
@@ -62,3 +62,8 @@ Create a new (or add your existing) Helm chart for use by the operator's reconci
 Use the SDK CLI to build and generate the operator deployment manifests
 
 Optionally add additional CRD's using the SDK CLI and repeat steps 2 and 3
+
+
+
+
+
