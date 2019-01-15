@@ -24,19 +24,41 @@ The project started almost 7 months ago and we started monitoring it intensively
 #Supported Operator SDK Workflows
 
 The SDK provides workflows to develop operators in Go, Ansible, or Helm.
+
+--------------------
+
 The following workflow is for a new Go operator:
+
 Create a new operator project using the SDK Command Line Interface(CLI)
+
 Define new resource APIs by adding Custom Resource Definitions(CRD)
+
 Define Controllers to watch and reconcile resources
+
 Write the reconciling logic for your Controller using the SDK and controller-runtime APIs
+
 Use the SDK CLI to build and generate the operator deployment manifests
+
+--------------------
+
 The following workflow is for a new Ansible operator:
+
 Create a new operator project using the SDK Command Line Interface(CLI)
+
 Write the reconciling logic for your object using ansible playbooks and roles
+
 Use the SDK CLI to build and generate the operator deployment manifests
+
 Optionally add additional CRD's using the SDK CLI and repeat steps 2 and 3
+
+--------------------
+
 The following workflow is for a new Helm operator:
+
 Create a new operator project using the SDK Command Line Interface(CLI)
+
 Create a new (or add your existing) Helm chart for use by the operator's reconciling logic
+
 Use the SDK CLI to build and generate the operator deployment manifests
+
 Optionally add additional CRD's using the SDK CLI and repeat steps 2 and 3
