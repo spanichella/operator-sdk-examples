@@ -6,7 +6,7 @@ subjects:
 - kind: ServiceAccount
   name: memcached-operator-long
   # Replace this with the namespace the operator is deployed in.
-  namespace: blogpost-project
+  namespace: REPLACE_NAMESPACE
 roleRef:
   kind: ClusterRole
   name: memcached-operator-long

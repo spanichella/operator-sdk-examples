@@ -9,16 +9,10 @@ import (
 
 // MemcachedSpec defines the desired state of Memcached
 type MemcachedSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Size is the size of the memcached deployment
 	Size int32 `json:"size"`
 }
-
-// MemcachedStatus defines the observed state of Memcached
 type MemcachedStatus struct {
-	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
-	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Nodes are the names of the memcached pods
 	Nodes []string `json:"nodes"`
 }

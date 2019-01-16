@@ -269,7 +269,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:47c0b353f93c8eea0f51a19fe344cfb95a8a5f7dd92fd4b07094ea662aa542ac"
+  digest = "1:4ad86611af49c9c5232fa43ebeeeab7a353e4045e3ba3a5cf5480823ac020790"
   name = "github.com/operator-framework/operator-sdk"
   packages = [
     "pkg/k8sutil",
@@ -278,7 +278,7 @@
     "version",
   ]
   pruneopts = "NT"
-  revision = "419cfd39bea8657babc55759db5fd77cada54334"
+  revision = "ade276c1d6ac71b9cd667a2e83bd527c335165dc"
 
 [[projects]]
   digest = "1:93b1d84c5fa6d1ea52f4114c37714cddd84d5b78f151b62bb101128dd51399bf"
@@ -322,7 +322,7 @@
   name = "github.com/prometheus/client_model"
   packages = ["go"]
   pruneopts = "NT"
-  revision = "f287a105a20ec685d797f65cd0ce8fbeaef42da1"
+  revision = "56726106282f1985ea77d5305743db7231b0c0a8"
 
 [[projects]]
   branch = "master"
@@ -413,7 +413,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:edb1bc51aeac21b22ea18fd440eb4a357a34515a090c65509eab276e93c218a2"
+  digest = "1:9a9a8b8635685e9e4ff68c80bebf00726f5019fb41da508a56df54e6e7277eeb"
   name = "golang.org/x/oauth2"
   packages = [
     ".",
@@ -423,18 +423,18 @@
     "jwt",
   ]
   pruneopts = "NT"
-  revision = "36a7019397c4c86cf59eeab3bc0d188bac444277"
+  revision = "5dab4167f31cbd76b407f1486c86b40748bc5073"
 
 [[projects]]
   branch = "master"
-  digest = "1:0b9d115a9e1afa7eb0d86f557de9df496b93b0a38ff6707248d3d09bf22e34a5"
+  digest = "1:588d959ba244664aed4698f00d3a5847cfb681478ee351535b405306a8306308"
   name = "golang.org/x/sys"
   packages = [
     "unix",
     "windows",
   ]
   pruneopts = "NT"
-  revision = "2be51725563103c17124a318f1745b66f2347acb"
+  revision = "e5ecc2a6747ce8d4af18ed98b3de5ae30eb3a5bb"
 
 [[projects]]
   digest = "1:8c74f97396ed63cc2ef04ebb5fc37bb032871b8fd890a25991ed40974b00cd2a"
@@ -470,7 +470,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:daccfe05d2e15a6ebd9a5da28ddaa9ad4e5260bbf8bd31ce2989a9cf8f654e6b"
+  digest = "1:553c1c04089b1fb811ced687f21c243f549115df5f587acee66bc9d3bd233381"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
@@ -486,7 +486,7 @@
     "internal/semver",
   ]
   pruneopts = "NT"
-  revision = "bf090417da8b6150dcfe96795325f5aa78fff718"
+  revision = "2e4132e53b93d8d81f7a076566396511238b89b0"
 
 [[projects]]
   digest = "1:902ffa11f1d8c19c12b05cabffe69e1a16608ad03a8899ebcb9c6bde295660ae"
@@ -722,7 +722,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:5edbd655d7ee65178fd5750bda9a3d3cd7fb96291937926f4969e6b2dfbc5743"
+  digest = "1:4d52082d1d9ea18e04c8b859f6696f1ca42849d68257e5b84812f8067694a2e6"
   name = "k8s.io/gengo"
   packages = [
     "args",
@@ -735,7 +735,7 @@
     "types",
   ]
   pruneopts = "NT"
-  revision = "fd15ee9cc2f77baa4f31e59e6acbf21146455073"
+  revision = "f8a0810f38afb8478882b3835a615aebfda39afa"
 
 [[projects]]
   digest = "1:f3b42f307c7f49a1a7276c48d4b910db76e003220e88797f7acd41e3a9277ddf"
@@ -747,7 +747,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:9ac2fdede4a8304e3b00ea3b36526536339f306d0306e320fc74f6cefeead18e"
+  digest = "1:653cd4cf804493513d5ec945e687639e5fe9a1f7adbcf2db5cd21da31a96674e"
   name = "k8s.io/kube-openapi"
   packages = [
     "cmd/openapi-gen/args",
@@ -758,7 +758,7 @@
     "pkg/util/sets",
   ]
   pruneopts = "NT"
-  revision = "0317810137be915b9cf888946c6e115c1bfac693"
+  revision = "ced9eb3070a5f1c548ef46e8dfe2a97c208d9f03"
 
 [[projects]]
   digest = "1:e03ddaf9f31bccbbb8c33eabad2c85025a95ca98905649fd744e0a54c630a064"
