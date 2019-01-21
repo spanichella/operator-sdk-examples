@@ -1,0 +1,32 @@
+---
+# tasks file for Memcachedansible
+---
+- name: start memcachedansible
+  k8s:
+    definition:
+      kind: Deployment
+      apiVersion: apps/v1
+      metadata:
+        name: '{{ meta.name }}-memcachedansible'
+        namespace: '{{ meta.namespace }}'
+      spec:
+        replicas: "{{size}}"
+        selector:
+          matchLabels:
+            app: memcachedansible
+        template:
+          metadata:
+            labels:
+              app: memcachedansible
+          spec:
+            containers:
+            - name: memcachedansible
+              command:
+              - memcachedansible
+              - -m=64
+              - -o
+              - modern
+              - -v
+              image: "docker.io/memcachedansible:1.4.36-alpine"
+              ports:
+                - containerPort: 11211

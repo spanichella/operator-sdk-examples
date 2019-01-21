@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: memcached-operator-ansible
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: memcached-operator-ansible
+  template:
+    metadata:
+      labels:
+        name: memcached-operator-ansible
+    spec:
+      serviceAccountName: memcached-operator-ansible
+      containers:
+        - name: memcached-operator-ansible
+          # Replace this with the built image name
+          image: REPLACE_IMAGE
+          ports:
+          - containerPort: 60000
+            name: metrics
+          imagePullPolicy: Always
+          env:
+            - name: WATCH_NAMESPACE
+              value: ""
+            - name: OPERATOR_NAME
+              value: "memcached-operator-ansible"

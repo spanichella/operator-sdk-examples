@@ -1,0 +1,7 @@
+apiVersion: cache2.example.com/v1alpha1
+kind: Memcachedansible
+metadata:
+  name: example-memcachedansible
+spec:
+  # Add fields here
+  size: 3

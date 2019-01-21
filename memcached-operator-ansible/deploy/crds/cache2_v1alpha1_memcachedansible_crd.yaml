@@ -1,0 +1,15 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: memcachedansibles.cache2.example.com
+spec:
+  group: cache2.example.com
+  names:
+    kind: Memcachedansible
+    listKind: MemcachedansibleList
+    plural: memcachedansibles
+    singular: memcachedansible
+  scope: Namespaced
+  version: v1alpha1
+  subresources:
+    status: {}
