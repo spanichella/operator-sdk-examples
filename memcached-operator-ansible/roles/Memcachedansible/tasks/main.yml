@@ -1,6 +1,5 @@
 ---
 # tasks file for Memcachedansible
----
 - name: start memcachedansible
   k8s:
     definition:
@@ -27,6 +26,6 @@
               - -o
               - modern
               - -v
-              image: "docker.io/memcachedansible:1.4.36-alpine"
+              image: "docker.io/memcached:1.4.36-alpine"
               ports:
                 - containerPort: 11211

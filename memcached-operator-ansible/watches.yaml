@@ -3,5 +3,3 @@
   group: cache2.example.com
   kind: Memcachedansible
   role: /opt/ansible/roles/Memcachedansible
-  spec:
-    size: 1

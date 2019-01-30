@@ -4,4 +4,4 @@ metadata:
   name: example-memcachedansible
 spec:
   # Add fields here
-  size: 3
+  size: 4
